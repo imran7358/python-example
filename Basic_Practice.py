@@ -58,4 +58,4 @@ for i in range(2,num):
 else:
    print("Prime Number")
 
-   
+   print("Hello Mohammad")
