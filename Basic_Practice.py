@@ -59,3 +59,14 @@ else:
    print("Prime Number")
 
    print("Hello Mohammad")
+
+# Q.11 Sum of First N Numbers
+
+n = 10
+print(sum(range(1, n+1)))
+
+# Q. 12 Count Vowels
+text = "hello world"
+count = sum(1 for ch in text if ch in "aeiou")
+
+print(count)
