@@ -70,3 +70,50 @@ text = "hello world"
 count = sum(1 for ch in text if ch in "aeiou")
 
 print(count)
+
+# Q. 13 List Remove Duplicates
+
+list = [1,2,3,3,4,4]
+unique = (set(list))
+print("Unique", unique)
+
+# Q. 14 Find Max in List
+
+nums = [14,15,50,90]
+print("Maximum Num", max(nums))
+
+# Q.15 Second Largest
+nums = [14,15,50,90]
+nums.sort()
+print(nums[-2])
+
+#Q.16 Merge Two Lists
+a = [1,2]
+b = [3,4]
+print((a + b))
+
+#Q.17 Merge Two Lists unsorted
+a = [4,3]
+b = [2,1]
+print(sorted(a + b))
+
+# Q.18 Dictionary Example
+
+person = {"name": "Imran", "age": 30}
+print(person["name"])
+
+# Q.19 Dictionary Example
+text = "apple"
+
+freq = {}
+for ch in text:
+    freq[ch] = freq.get(ch, 0) + 1
+
+print(freq)
+
+# Q.20 Function Example
+def add(a, b):
+    return a + b
+
+print(add(2, 3))
+
